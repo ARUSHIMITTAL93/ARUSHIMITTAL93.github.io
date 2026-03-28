@@ -374,6 +374,7 @@ body.site-shell a:hover {
     list-style: none;
 }
 
+.site-page .page-card .page-bullet-list li,
 .page-bullet-list li {
     position: relative;
     padding-left: 18px;
@@ -382,6 +383,7 @@ body.site-shell a:hover {
     color: var(--page-muted);
 }
 
+.site-page .page-card .page-bullet-list li::before,
 .page-bullet-list li::before {
     content: "";
     position: absolute;
@@ -869,6 +871,7 @@ body.site-shell a:hover {
     gap: 12px;
 }
 
+.site-page .page-card .project-feature-points li,
 .project-feature-points li {
     padding-left: 20px;
     font-size: 0.95rem;
@@ -876,6 +879,7 @@ body.site-shell a:hover {
     color: var(--page-muted);
 }
 
+.site-page .page-card .project-feature-points li::before,
 .project-feature-points li::before {
     top: 10px;
 }
