@@ -870,6 +870,7 @@ body.site-shell a:hover {
 }
 
 .project-feature-points li {
+    padding-left: 20px;
     font-size: 0.95rem;
     line-height: 1.72;
     color: var(--page-muted);
