@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title">
+  <title>Analytics project graphic</title>
+  <rect width="960" height="540" rx="32" fill="#f7fbff"/>
+  <g fill="#dce8ff">
+    <rect x="118" y="278" width="92" height="128" rx="20"/>
+    <rect x="254" y="228" width="92" height="178" rx="20"/>
+    <rect x="390" y="188" width="92" height="218" rx="20"/>
+    <rect x="526" y="154" width="92" height="252" rx="20"/>
+  </g>
+  <path d="M126 178L248 220 382 150 522 186 664 110 820 150" fill="none" stroke="#1f4fd8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#1f4fd8">
+    <circle cx="126" cy="178" r="12"/>
+    <circle cx="248" cy="220" r="12"/>
+    <circle cx="382" cy="150" r="12"/>
+    <circle cx="522" cy="186" r="12"/>
+    <circle cx="664" cy="110" r="12"/>
+    <circle cx="820" cy="150" r="12"/>
+  </g>
+  <text x="118" y="474" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#173b8f">Analytics</text>
+  <text x="118" y="512" font-family="Arial, sans-serif" font-size="24" fill="#46617d">Forecasting, planning, and AI-enabled reporting decisions</text>
+</svg>

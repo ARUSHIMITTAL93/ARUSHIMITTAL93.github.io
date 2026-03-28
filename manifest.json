@@ -1,0 +1,16 @@
+{
+  "name": "Arushi Mittal Portfolio",
+  "short_name": "Arushi Portfolio",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#f7f9fc",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./assets/img/arushi-mark.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}

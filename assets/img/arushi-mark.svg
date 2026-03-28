@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title>Arushi Mittal monogram</title>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f4fd8"/>
+      <stop offset="100%" stop-color="#4aa6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="#f7f9fc"/>
+  <rect x="18" y="18" width="220" height="220" rx="44" fill="url(#g)"/>
+  <text x="128" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="86" font-weight="700" fill="#ffffff">AM</text>
+</svg>

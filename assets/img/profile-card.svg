@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-labelledby="title">
+  <title>Profile placeholder for Arushi Mittal</title>
+  <rect width="480" height="480" rx="48" fill="#eef3ff"/>
+  <circle cx="240" cy="164" r="88" fill="#1f4fd8" opacity="0.18"/>
+  <circle cx="240" cy="164" r="64" fill="#1f4fd8"/>
+  <path d="M122 390c22-70 77-110 118-110s96 40 118 110" fill="#1f4fd8"/>
+  <text x="240" y="446" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#173b8f">Arushi Mittal</text>
+</svg>

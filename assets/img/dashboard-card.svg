@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title">
+  <title>Dashboard project graphic</title>
+  <rect width="960" height="540" rx="32" fill="#f7fbff"/>
+  <rect x="76" y="76" width="808" height="388" rx="28" fill="#ffffff" stroke="#d8e4f5" stroke-width="4"/>
+  <rect x="118" y="118" width="194" height="120" rx="18" fill="#dce8ff"/>
+  <rect x="340" y="118" width="194" height="120" rx="18" fill="#eaf2ff"/>
+  <rect x="562" y="118" width="194" height="120" rx="18" fill="#dce8ff"/>
+  <rect x="118" y="278" width="638" height="124" rx="22" fill="#eef4ff"/>
+  <path d="M168 364L258 330 344 346 430 288 522 316 608 242 702 266" fill="none" stroke="#1f4fd8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="76" y="498" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#173b8f">Dashboards</text>
+  <text x="76" y="530" font-family="Arial, sans-serif" font-size="24" fill="#46617d">Tableau, Power BI, executive reporting, and visibility</text>
+</svg>

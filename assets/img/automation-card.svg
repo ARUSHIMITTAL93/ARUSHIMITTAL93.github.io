@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title">
+  <title>Automation project graphic</title>
+  <rect width="960" height="540" rx="32" fill="#f4f8ff"/>
+  <rect x="78" y="92" width="300" height="210" rx="24" fill="#dbe8ff"/>
+  <rect x="428" y="92" width="454" height="60" rx="20" fill="#e7efff"/>
+  <rect x="428" y="176" width="454" height="60" rx="20" fill="#e7efff"/>
+  <rect x="428" y="260" width="300" height="60" rx="20" fill="#e7efff"/>
+  <path d="M220 372L312 372 312 420 392 420" fill="none" stroke="#1f4fd8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="220" cy="372" r="24" fill="#1f4fd8"/>
+  <circle cx="312" cy="372" r="24" fill="#1f4fd8"/>
+  <circle cx="392" cy="420" r="24" fill="#1f4fd8"/>
+  <text x="78" y="472" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#173b8f">Automation</text>
+  <text x="78" y="510" font-family="Arial, sans-serif" font-size="24" fill="#46617d">Python workflows, recurring tasks, and process reliability</text>
+</svg>
