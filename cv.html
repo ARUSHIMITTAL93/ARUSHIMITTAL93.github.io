@@ -8,12 +8,17 @@
         content="Curriculum vitae for Arushi Mittal with an embedded CV and a separate one-page resume download.">
     <title>CV | Arushi Mittal</title>
     <link rel="icon" type="image/svg+xml" href="assets/img/arushi-mark.svg">
+    <link rel="apple-touch-icon" href="assets/img/arushi-mark.svg">
+    <meta name="apple-mobile-web-app-status-bar" content="#F7F9FC">
+    <meta name="theme-color" content="#F7F9FC">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="pages.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="assets/js/app.js"></script>
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body class="site-shell">
@@ -39,10 +44,18 @@
             </header>
 
             <section class="cv-page-layout page-section">
-                <div class="cv-actions">
-                    <a class="page-action" href="assets/arushi_resume.pdf" target="_blank" rel="noopener">one-page resume</a>
-                    <a class="page-action page-action--ghost" href="assets/arushi_cv_full.pdf" target="_blank" rel="noopener">open CV in new tab</a>
-                </div>
+                <article class="page-card page-card--feature page-card--centered">
+                    <p class="page-card-kicker">Documents</p>
+                    <h2 class="page-card-title">Full CV and one-page resume</h2>
+                    <p>
+                        This page keeps the complete CV visible while also providing a shorter one-page version for
+                        faster screening and sharing.
+                    </p>
+                    <div class="page-actions-row page-actions-row--centered">
+                        <a class="page-action" href="assets/arushi_resume.pdf" target="_blank" rel="noopener">one-page resume</a>
+                        <a class="page-action page-action--ghost" href="assets/arushi_cv_full.pdf" target="_blank" rel="noopener">open CV in new tab</a>
+                    </div>
+                </article>
 
                 <div class="cv-viewer-frame">
                     <object class="cv-viewer" data="assets/arushi_cv_full.pdf#view=FitH" type="application/pdf">
@@ -62,9 +75,9 @@
 
     <footer class="footer-full site-footer">
         <div class="social-icons" aria-label="Footer social links">
-            <a target="_blank" rel="noopener" href="mailto:arushi.mittal0193@gmail.com"><i class="fas fa-envelope"></i></a>
-            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/arushimittal1/"><i class="fab fa-linkedin-in"></i></a>
-            <a href="cv.html"><i class="fas fa-file-pdf"></i></a>
+            <a target="_blank" rel="noopener" href="mailto:arushi.mittal0193@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/arushimittal1/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="cv.html" aria-label="CV"><i class="fas fa-file-pdf"></i></a>
         </div>
         <div class="site-footer-meta">
             <span class="site-footer-note">Arushi Mittal portfolio</span>
