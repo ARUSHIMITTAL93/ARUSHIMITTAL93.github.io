@@ -477,12 +477,32 @@ body.site-shell a:hover {
     padding: 36px 0 30px;
 }
 
+.home-minimal {
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home-minimal-header {
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+
+.home-minimal-title::after {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 .home-actions {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 16px;
     margin-top: 28px;
+}
+
+.home-actions--centered {
+    justify-content: center;
 }
 
 .page-home .contact-btn {
@@ -854,6 +874,17 @@ body.site-shell a:hover {
     flex-wrap: wrap;
     gap: 14px;
     justify-content: center;
+    position: sticky;
+    top: 18px;
+    z-index: 6;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 999px;
+    background: rgba(247, 249, 252, 0.92);
+    border: 1px solid rgba(208, 218, 240, 0.9);
+    box-shadow: 0 14px 28px rgba(18, 26, 45, 0.08);
+    backdrop-filter: blur(12px);
 }
 
 .cv-viewer-frame {
@@ -1238,6 +1269,10 @@ body.site-shell a:hover {
 
     .cv-actions {
         justify-content: stretch;
+        width: 100%;
+        top: 12px;
+        padding: 10px;
+        border-radius: 22px;
     }
 
     .cv-actions .page-action,
