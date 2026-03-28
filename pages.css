@@ -868,14 +868,14 @@ body.site-shell a:hover {
 }
 
 .project-feature-points {
-    gap: 12px;
+    gap: 6px;
 }
 
 .site-page .page-card .project-feature-points li,
 .project-feature-points li {
     padding-left: 20px;
-    font-size: 0.95rem;
-    line-height: 1.72;
+    font-size: 0.9rem;
+    line-height: 1.48;
     color: var(--page-muted);
 }
 
