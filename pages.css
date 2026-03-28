@@ -865,11 +865,18 @@ body.site-shell a:hover {
     border: 1px solid #e7edf7;
 }
 
-.project-feature-description p {
-    margin: 0;
-    font-size: 0.96rem;
-    line-height: 1.8;
+.project-feature-points {
+    gap: 12px;
+}
+
+.project-feature-points li {
+    font-size: 0.95rem;
+    line-height: 1.72;
     color: var(--page-muted);
+}
+
+.project-feature-points li::before {
+    top: 10px;
 }
 
 .about-layout {
@@ -1349,9 +1356,9 @@ body.site-shell a:hover {
         border-radius: 16px;
     }
 
-    .project-feature-description p {
-        font-size: 0.93rem;
-        line-height: 1.72;
+    .project-feature-points li {
+        font-size: 0.92rem;
+        line-height: 1.68;
     }
 
     .about-layout {
