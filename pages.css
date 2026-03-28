@@ -660,6 +660,80 @@ body.site-shell a:hover {
     padding: 24px;
 }
 
+.projects-empty {
+    max-width: 720px;
+    margin: 44px auto 0;
+    text-align: center;
+}
+
+.projects-empty p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.85;
+    color: var(--page-muted);
+}
+
+.about-layout {
+    display: grid;
+    grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
+    gap: 34px;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.about-image-frame {
+    padding: 18px;
+    border-radius: 28px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(246, 248, 252, 0.96));
+    border: 1px solid var(--page-border);
+    box-shadow: var(--page-shadow);
+}
+
+.about-main-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1.08;
+    object-fit: cover;
+    border-radius: 20px;
+    background: #f6f8fc;
+}
+
+.about-copy {
+    max-width: 700px;
+}
+
+.about-copy p {
+    margin: 0;
+    font-size: 1.03rem;
+    line-height: 1.95;
+    color: var(--page-muted);
+}
+
+.about-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 22px;
+}
+
+.about-links a {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(31, 79, 216, 0.14);
+    background: rgba(31, 79, 216, 0.06);
+    color: #2348a2;
+    font-size: 0.84rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.about-links a:hover {
+    text-decoration: none;
+    background: rgba(31, 79, 216, 0.1);
+}
+
 .site-page .news-list,
 .site-page .publications-list,
 .site-page .opportunities-list,
@@ -913,6 +987,15 @@ body.site-shell a:hover {
     .site-page .publication-feature-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+    .about-layout {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .about-image-frame {
+        max-width: 420px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -964,6 +1047,30 @@ body.site-shell a:hover {
 
     .site-page .publication-feature-body {
         padding: 18px 18px 20px;
+    }
+
+    .projects-empty {
+        margin-top: 28px;
+    }
+
+    .projects-empty p,
+    .about-copy p {
+        font-size: 0.95rem;
+        line-height: 1.78;
+    }
+
+    .about-layout {
+        margin-top: 28px;
+        gap: 20px;
+    }
+
+    .about-image-frame {
+        padding: 14px;
+        border-radius: 22px;
+    }
+
+    .about-main-image {
+        border-radius: 16px;
     }
 
     .menu-wrap {
