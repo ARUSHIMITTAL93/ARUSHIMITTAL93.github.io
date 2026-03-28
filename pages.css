@@ -487,18 +487,23 @@ body.site-shell a:hover {
 
 .home-minimal {
     max-width: 620px;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0 auto 0 clamp(12px, 5vw, 64px);
+    text-align: left;
 }
 
 .home-minimal-header {
-    margin: 0 auto !important;
-    text-align: center !important;
+    margin: 0 !important;
+    text-align: left !important;
 }
 
 .home-minimal-title::after {
-    margin-left: auto !important;
+    margin-left: 0 !important;
     margin-right: auto !important;
+}
+
+.home-minimal-subtitle {
+    margin: 0 !important;
+    max-width: 520px;
 }
 
 .home-actions {
@@ -510,7 +515,7 @@ body.site-shell a:hover {
 }
 
 .home-actions--centered {
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .page-home .contact-btn {
@@ -1403,5 +1408,9 @@ body.site-shell a:hover {
 
     .home-hero {
         padding-top: 20px;
+    }
+
+    .home-minimal {
+        margin-left: 0;
     }
 }
