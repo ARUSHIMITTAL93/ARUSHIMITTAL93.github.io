@@ -1,4 +1,4 @@
-const staticCacheName = 'site-static-v31';
+const staticCacheName = 'site-static-v32';
 const assets = [
     './',
     './index.html',
@@ -18,6 +18,7 @@ const assets = [
     './assets/img/dashboard-card.svg',
     './assets/img/migration-card.svg',
     './assets/img/analytics-card.svg',
+    './assets/img/arushi-about.jpg',
     './assets/img/profile-card.svg',
     './assets/img/community-card.svg',
     'https://fonts.googleapis.com/css?family=Lato:300,400,700'
