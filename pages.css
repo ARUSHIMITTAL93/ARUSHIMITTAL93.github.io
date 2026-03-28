@@ -412,6 +412,14 @@ body.site-shell a:hover {
     cursor: pointer;
 }
 
+.page-action,
+.page-action:visited,
+.page-action:focus,
+.page-action:active {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff;
+}
+
 .page-action:hover {
     color: #ffffff !important;
     background: var(--page-accent-strong);
