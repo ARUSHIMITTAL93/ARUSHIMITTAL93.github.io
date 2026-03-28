@@ -1,14 +1,16 @@
-const staticCacheName = 'site-static-v15';
+const staticCacheName = 'site-static-v16';
 const assets = [
     './',
     './index.html',
     './manifest.json',
     './research.html',
     './about.html',
+    './cv.html',
     './style.css',
     './pages.css',
     './research.css',
-    './assets/arushi_cv.pdf',
+    './assets/arushi_cv_full.pdf',
+    './assets/arushi_resume.pdf',
     './assets/img/arushi-mark.svg',
     './assets/img/arushi-pattern.svg',
     './assets/img/automation-card.svg',

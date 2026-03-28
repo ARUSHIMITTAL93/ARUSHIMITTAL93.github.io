@@ -338,6 +338,19 @@ body.site-shell a:hover {
     text-decoration: none;
 }
 
+.page-action--ghost {
+    background: rgba(31, 79, 216, 0.08);
+    color: var(--page-accent);
+    border: 1px solid rgba(31, 79, 216, 0.16);
+    box-shadow: none;
+}
+
+.page-action--ghost:hover {
+    color: var(--page-accent) !important;
+    background: rgba(31, 79, 216, 0.14);
+    box-shadow: none;
+}
+
 .page-home {
     min-height: calc(100vh - 40px);
     display: flex;
@@ -734,6 +747,47 @@ body.site-shell a:hover {
     background: rgba(31, 79, 216, 0.1);
 }
 
+.cv-page-layout {
+    display: grid;
+    gap: 22px;
+}
+
+.cv-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.cv-viewer-frame {
+    padding: 18px;
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid var(--page-border);
+    box-shadow: var(--page-shadow);
+}
+
+.cv-viewer {
+    display: block;
+    width: 100%;
+    min-height: 1080px;
+    border: none;
+    border-radius: 18px;
+    background: #f4f6fb;
+}
+
+.cv-fallback {
+    padding: 28px 24px;
+    text-align: center;
+}
+
+.cv-fallback p {
+    margin: 0;
+    font-size: 0.98rem;
+    line-height: 1.8;
+    color: var(--page-muted);
+}
+
 .site-page .news-list,
 .site-page .publications-list,
 .site-page .opportunities-list,
@@ -996,6 +1050,10 @@ body.site-shell a:hover {
     .about-image-frame {
         max-width: 420px;
     }
+
+    .cv-viewer {
+        min-height: 900px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -1071,6 +1129,24 @@ body.site-shell a:hover {
 
     .about-main-image {
         border-radius: 16px;
+    }
+
+    .cv-actions {
+        justify-content: stretch;
+    }
+
+    .cv-actions .page-action {
+        width: 100%;
+    }
+
+    .cv-viewer-frame {
+        padding: 12px;
+        border-radius: 22px;
+    }
+
+    .cv-viewer {
+        min-height: 760px;
+        border-radius: 14px;
     }
 
     .menu-wrap {
