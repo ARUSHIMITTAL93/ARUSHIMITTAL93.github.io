@@ -812,6 +812,68 @@ body.site-shell a:hover {
     color: var(--page-muted);
 }
 
+.project-feature-card {
+    max-width: none;
+}
+
+.project-feature-summary {
+    max-width: 900px;
+    margin: 0;
+    font-size: 1.02rem;
+    line-height: 1.85;
+    color: var(--page-muted);
+}
+
+.project-feature-tags {
+    margin-top: 18px;
+}
+
+.project-feature-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+    gap: 28px;
+    align-items: start;
+    margin-top: 24px;
+}
+
+.project-feature-media {
+    padding: 18px;
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(247, 249, 252, 0.98), rgba(255, 255, 255, 0.98));
+    border: 1px solid #e5ebf5;
+    box-shadow: 0 18px 34px rgba(18, 26, 45, 0.08);
+}
+
+.project-feature-video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border-radius: 18px;
+    background: #0f1726;
+    box-shadow: 0 12px 24px rgba(18, 26, 45, 0.12);
+}
+
+.project-feature-copy {
+    min-width: 0;
+}
+
+.project-feature-list {
+    gap: 14px;
+}
+
+.project-feature-list li {
+    padding: 14px 16px 14px 20px;
+    border-radius: 18px;
+    background: #f7f9fc;
+    border: 1px solid #e7edf7;
+}
+
+.project-feature-list li::before {
+    top: 18px;
+    left: 10px;
+}
+
 .about-layout {
     display: grid;
     grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
@@ -1183,6 +1245,10 @@ body.site-shell a:hover {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
+    .project-feature-layout {
+        grid-template-columns: 1fr;
+    }
+
     .about-layout {
         grid-template-columns: 1fr;
         gap: 24px;
@@ -1262,8 +1328,27 @@ body.site-shell a:hover {
         line-height: 1.78;
     }
 
+    .project-feature-summary {
+        font-size: 0.96rem;
+        line-height: 1.75;
+    }
+
     .page-bullet-list li {
         font-size: 0.92rem;
+    }
+
+    .project-feature-media {
+        padding: 12px;
+        border-radius: 20px;
+    }
+
+    .project-feature-video {
+        border-radius: 14px;
+    }
+
+    .project-feature-list li {
+        padding: 12px 14px 12px 18px;
+        border-radius: 16px;
     }
 
     .about-layout {
