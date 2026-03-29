@@ -5,7 +5,7 @@ Multi-page GitHub Pages portfolio for Arushi Mittal, adapted from the structure 
 ## Page Map
 
 - `index.html`: homepage and short introduction
-- `research.html`: projects
+- `projects.html`: projects
 - `about.html`: about me
 - `cv.html`: embedded CV plus one-page resume link
 
